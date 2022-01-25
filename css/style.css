@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+}
+
+
+/* Decoracion */
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.textoT {
+    font-size: 3vh;
+}
+
+.centexto {
+    text-align: center;
+}
+
+
+/* Column pagina */
+
+.column-l {
+    width: 15%;
+    float: left;
+    position: fixed;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.backgroundb {
+    background-color: aliceblue;
+}
+
+.column-m {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+    padding-top: 2%;
+}
+
+.column-r {
+    width: 15%;
+    float: left;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+
+/* Column DIV */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+
+/* Imagen */
+
+.imagen {
+    width: 100%;
+    height: 400px;
+}
+
+.imagen1 {
+    width: 40%;
+    height: 400px;
+}
+
+.imageco {
+    width: 100%;
+    height: 20vh;
+}
+
+.centrado {
+    margin: 10px auto;
+    display: block;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+/* Padding */
+
+.mapab {
+    padding-bottom: 5%;
+}
+
+.padimg {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.padimg1 {
+    padding-left: 2.5%;
+    padding-right: 5%;
+}
+
+.padimg2 {
+    padding-left: 5%;
+    padding-right: 2.5%;
+}
+
+@media only screen and (max-width: 700px) {
+    .column-l {
+        width: 100%;
+        top: 0;
+        position: fixed;
+        text-align: center;
+        background-color: white;
+    }
+    .column-l ul {
+        list-style: none;
+    }
+    .marginar {
+        margin-top: 40%;
+    }
+    .centpad {
+        padding-left: 5%;
+    }
+    .column-m {
+        margin-top: 30%;
+        margin-left: 0%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+    .imagen1 {
+        width: 100%;
+        height: 300px;
+    }
+    .column-r {
+        width: 30%;
+    }
+}
